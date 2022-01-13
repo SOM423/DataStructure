@@ -11,3 +11,20 @@
 		}
 		ll.head = node.prev;
 	}
+
+OR
+
+
+        public Node reverseSLL(Node head)
+	{
+		Node cur = head;
+		Node prev = null;
+		while(cur !=null)
+		{
+			Node temp = cur.next;
+			cur.next = prev;
+			prev = cur;
+			cur = temp;
+		}
+		return prev;
+	}
