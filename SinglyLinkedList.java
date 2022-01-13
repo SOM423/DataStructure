@@ -85,7 +85,6 @@ public class SinglyLinkedList {
 	}
 	
 	
-	
 	//Traversing in LL --> O(N)
 	public void travarseSinglyLinkedList()
 	{
