@@ -4,9 +4,8 @@ public class FirstRepeatedWordInString {
 
 	public static void main(String[] args) {
 
-		String u
-	      = "Ravi  been saying that he had been there";
-		solve(u);
+		String str  = "I had been saying that he had been there";
+		solve(str);
 	}
 
 	public static void solve(String s)
